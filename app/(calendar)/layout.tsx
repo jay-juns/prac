@@ -4,8 +4,8 @@ const MarketingLayout = ({
     children: React.ReactNode
 }) => {
     return(
-        <div className="h-full bg-slate-100">
-            <main className="pt-40 pd-20 bg-slate-100">
+        <div className="h-full bg-slate-400">
+            <main className="pt-40 pd-20 bg-slate-400">
                 {children}
             </main>
         </div>

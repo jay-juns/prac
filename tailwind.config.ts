@@ -7,6 +7,11 @@ module.exports = {
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
 	],
+  variants: {
+    extend: {
+      textColor: ['hover'], // hover 상태 변형을 text 색상 유틸리티에 활성화
+    },
+  },
   theme: {
     container: {
       center: true,
@@ -25,6 +30,7 @@ module.exports = {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          dark: 'hsl(var(--card-dark))',
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -48,6 +54,7 @@ module.exports = {
         },
         card: {
           DEFAULT: "hsl(var(--card))",
+          dark: 'hsl(var(--card-dark))',
           foreground: "hsl(var(--card-foreground))",
         },
       },
