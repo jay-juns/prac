@@ -9,7 +9,8 @@ module.exports = {
 	],
   variants: {
     extend: {
-      textColor: ['hover'], // hover 상태 변형을 text 색상 유틸리티에 활성화
+      // hover 상태 변형을 텍스트 색상 유틸리티에서 활성화합니다
+      textColor: ['hover'],
     },
   },
   theme: {
